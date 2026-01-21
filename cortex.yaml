@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: sample_maven_service
+  description: This is sample maven template
+  x-cortex-tag: sample_maven_service
+  x-cortex-type: service
+  x-cortex-git:
+    github:
+      repository: ftvc-org/sample_maven_service
+  x-cortex-static-analysis:
+    sonarqube:
+      alias: SonarCloud
+      project: ftvc-org_sample_maven_service
